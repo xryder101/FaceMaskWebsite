@@ -1,0 +1,312 @@
+/*
+Table of contents
+------------------
+1.Header/Nav
+2.Body/Main/Form
+3.Footer
+*/
+
+/*------------------------------------------Header/nav---------------------------------------------------------------------------------*/
+
+/*Creates a content box that extends the width of the page and describes what page you are on.*/
+
+.header-box-top {
+	position: relative;
+	bottom: 21px;
+	width: 100.9%;
+	right: 8px;
+}
+/*
+-Creates a white content box with a black solid border
+-Font color is black
+-Contents in box is aligned to the center
+*/
+
+nav {
+	color: black;
+	background-color: white;
+	padding: 9px;
+	text-align: center;
+	border: 4px solid black;
+}
+/*
+-Aligns text to the center within each content box in navbar
+-Changes font to be bold
+*/
+
+.nav-box a {
+	text-align: center;
+	padding: 11px 15px;
+	display: inline;
+	font-size: 25px;
+	font-weight: bold;
+}
+/*Chnages the default text decoartion(underline) to none*/
+
+.nav-box a:link {
+	text-decoration: none;
+}
+/*Change color of link if it has been visited(cliked on)*/
+
+.nav-box a:visited {
+	color: #0099ff;
+}
+/*Changes the background color to black and text color to blue when mouse hovers over content box */
+
+.nav-box a:hover {
+	background-color: black;
+	color: #0099ff;
+}
+/*Changes the content box background color to black and text color to blue when a particular page is active*/
+
+.nav-box a.active {
+	background-color: black;
+	color: #0099ff;
+}
+/*Makes the header content box and footer content box text color blue and the background color black*/
+
+header,
+footer {
+	color: #0099ff;
+	display: block;
+	background-color: black;
+}
+/*------------------------------------------Header/nav---------------------------------------------------------------------------------*/
+
+/*------------------------------------------Body/Main/Form---------------------------------------------------------------------------------*/
+
+/*Hides overflow and sets background image by linking to a .webp picture using a relative path*/
+
+body {
+	background-image: url("repeated-pattern1.webp");
+	overflow-x: hidden;
+}
+/*Changes font size*/
+
+.form-heading-size {
+	font-size: 40px;
+}
+/*Changes all h1 element's text color to blue*/
+
+h1 {
+	color: #0099ff;
+}
+/*Changes main content background color to black and font color to blue*/
+
+.main-box {
+	background-color: black;
+	color: #0099ff;
+}
+/*
+-Changes overlay content box background color to black and text color to blue with a white solid border
+-Curves the edges of the content box borders
+*/
+
+.overlay {
+	position: relative;
+	height: 3000px;
+	width: 90%;
+	right: 3px;
+	margin: 3% auto;
+	background-color: black;
+	color: #0099ff;
+	border-radius: 50px;
+	border: solid white;
+	text-align: center;
+}
+/*Changes the hr backround color to white*/
+
+hr {
+	background-color: white;
+	padding: 1px;
+}
+/*Changes the spacing on the top and bottom of each section*/
+
+section {
+	position: relative;
+	margin: 150px 0px;
+}
+/*Repositioning the text to the left*/
+
+.center {
+	display: inline-block;
+	position: relative;
+	text-align: left;
+	padding-left: 0px;
+	padding-right: 0px;
+	bottom: 40px;
+}
+/*
+-Repositions the submit button contet box and set the border to be solid and white
+-Curved border edges
+*/
+
+.Submission {
+	position: relative;
+	bottom: 60px;
+	height: 50px;
+	width: 8%;
+	min-width: 140px;
+	border: 2px solid white;
+	padding: 10px;
+	border-radius: 15px;
+}
+/*Changes background color of submit button to blue when mouse hovers over*/
+
+.Submission:hover {
+	background-color: #0099ff;
+}
+/*Changes the height and width of all inputs*/
+
+input {
+	position: relative;
+	height: 25px;
+	width: 4%;
+}
+/*Changes the width and re-positions the input box where type = "number"*/
+
+.input-number-box {
+	position: relative;
+	bottom: 90px;
+	width: 6%;
+	min-width: 105px;
+}
+/*Changes the height and width of mask images*/
+
+.masks-img-size {
+	position: relative;
+	height: 300px;
+	width: 16%;
+	margin: 40px 74px;
+	min-width: 300px;
+}
+/*Centers text to the middle*/
+
+.center-middle-text {
+	text-align: center;
+	height: 0;
+	padding-bottom: 25px;
+}
+/*Centers text*/
+
+.subheading-text-center {
+	text-align: center;
+}
+/*Changes the font size and centers all text in figcaption*/
+
+figcaption {
+	font-size: 25px;
+	text-align: center;
+}
+/*Changes the positioning of the administrative image on the Administrative.hmtl page*/
+
+.admin-img {
+	position: relative;
+	left: 760px;
+	height: 300px;
+	min-width: 310px;
+}
+/*Creates space on the top and bottom of all iframes*/
+
+.iframe-spacing {
+	margin-left: 130px;
+}
+/*Changes the default font color from blue to white when the mouse hovers over the link https://www.worldometers.info/coronavirus/ - Infections, Deaths, Recoveries  */
+
+.text-color:link {
+	text-decoration: none;
+}
+/*Changes the default font color from blue to white when the mouse hovers over the link https://www.worldometers.info/coronavirus/ - Infections, Deaths, Recoveries  */
+
+.text-color h1:hover {
+	color: white;
+}
+/*------------------------------------------Body/Main/Form---------------------------------------------------------------------------------*/
+
+/*------------------------------------------Footer---------------------------------------------------------------------------------*/
+
+/*Creates a footer content box with a solid black border*/
+
+.footer-box {
+	position: relative;
+	height: 40px;
+	width: 100.9%;
+	right: 8px;
+	top: 32px;
+	padding-bottom: 40px;
+	border: 4px solid black;
+}
+/*Creates a footer content box with a solid black border for AboutUs page*/
+
+.footer-box-AboutUs {
+	position: relative;
+	height: 40px;
+	width: 100.9%;
+	right: 8px;
+	top: 88px;
+	padding-bottom: 40px;
+	border: 4px solid black;
+}
+/*Creates a footer content box with a solid black border for Administration page*/
+
+.footer-box-Admin {
+	position: relative;
+	height: 40px;
+	width: 100.9%;
+	right: 8px;
+	top: 357.2px;
+	padding-bottom: 40px;
+	border: 4px solid black;
+}
+/*Creates a footer content box with a solid black border for OurMask page*/
+
+.footer-box-OurMask {
+	position: relative;
+	height: 40px;
+	width: 100.9%;
+	right: 8px;
+	top: 8px;
+	padding-bottom: 40px;
+	border: 4px solid black;
+}
+/*Creates a content box for submit button with a solid black border*/
+
+.footer-box-submit {
+	position: relative;
+	height: 40px;
+	width: 100.9%;
+	right: 8px;
+	top: 529px;
+	padding-bottom: 40px;
+	border: 4px solid black;
+}
+/*change background to blue when mouse hovers over social media icons */
+
+.footer-box img:hover,
+.footer-box-submit img:hover,
+.footer-box-AboutUs img:hover,
+.footer-box-Admin img:hover,
+.footer-box-OurMask img:hover {
+	background-color: #0099ff;
+}
+/*Changes the height and width of the social media images and curves the borders enough to become circles*/
+
+.icon-box {
+	position: relative;
+	padding: 8px;
+	height: 60px;
+	width: 3%;
+	min-width: 55px;
+	border-radius: 50px;
+}
+/*------------------------------------------Footer---------------------------------------------------------------------------------*/
+
+/*CSS code minified/compressed to optimize webpage speed by reducing file size*/
+/*.header-box-top{position:relative;bottom:21px;width:100.9%;right:8px}nav{color:black;background-color:white;padding:9px;text-align:center;border:4px solid black}.nav-box a{text-align:center;padding:11px 15px;display:inline;font-size:25px;font-weight:bold}.nav-box a:link{text-decoration:none}.nav-box a:visited{color:#09f}.nav-box a:hover{background-color:black;color:#09f}.nav-box a.active{background-color:black;color:#09f}header,footer{color:#09f;display:block;background-color:black}body{background-image:url("repeated-pattern1.webp");overflow-x:hidden}.form-heading-size{font-size:40px}h1{color:#09f}.main-box{background-color:black;color:#09f}.overlay{position:relative;height:3000px;width:90%;right:3px;margin:3% auto;background-color:black;color:#09f;border-radius:50px;border:solid white;text-align:center}hr{background-color:white;padding:1px}section{position:relative;margin:150px 0px}.center{display:inline-block;position:relative;text-align:left;padding-left:0px;padding-right:0px;bottom:40px}.Submission{position:relative;bottom:60px;height:50px;width:8%;min-width:140px;border:2px solid white;padding:10px;border-radius:15px}.Submission:hover{background-color:#09f}input{position:relative;height:25px;width:4%}.input-number-box{position:relative;bottom:90px;width:6%;min-width:105px}.masks-img-size{position:relative;height:300px;width:16%;margin:40px 74px;min-width:300px}.center-middle-text{text-align:center;height:0;padding-bottom:25px}.subheading-text-center{text-align:center}figcaption{font-size:25px;text-align:center}.admin-img{position:relative;left:760px;height:300px;min-width:310px}.iframe-spacing{margin-left:130px}.text-color:link{text-decoration:none}.text-color h1:hover{color:white}.footer-box{position:relative;height:40px;width:100.9%;right:8px;top:32px;padding-bottom:40px;border:4px solid black}.footer-box-AboutUs{position:relative;height:40px;width:100.9%;right:8px;top:88px;padding-bottom:40px;border:4px solid black}.footer-box-Admin{position:relative;height:40px;width:100.9%;right:8px;top:357.2px;padding-bottom:40px;border:4px solid black}.footer-box-OurMask{position:relative;height:40px;width:100.9%;right:8px;top:8px;padding-bottom:40px;border:4px solid black}.footer-box-submit{position:relative;height:40px;width:100.9%;right:8px;top:529px;padding-bottom:40px;border:4px solid black}.footer-box img:hover, .footer-box-submit img:hover, .footer-box-AboutUs img:hover, .footer-box-Admin img:hover, .footer-box-OurMask img:hover{background-color:#09f}.icon-box{position:relative;padding:8px;height:60px;width:3%;min-width:55px;border-radius:50px}*/
+
+
+
+
+
+
+
