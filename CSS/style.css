@@ -78,7 +78,7 @@ footer {
 /*Hides overflow and sets background image by linking to a .webp picture using a relative path*/
 
 body {
-	background-image: url("repeated-pattern1.webp");
+	background-image: url("../images/repeated-pattern1.webp");
 	overflow-x: hidden;
 }
 /*Changes font size*/
